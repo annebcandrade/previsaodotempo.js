@@ -70,9 +70,10 @@ body {
     margin-top: 20px;
 }
 
-.texto-previsao {
+.texto-previsao, ::first-letter{
     color: #ffffff;
     margin-left: 20px;
+    text-transform: uppercase;
 }
 
 .umidade {

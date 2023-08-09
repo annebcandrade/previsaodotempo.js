@@ -2,7 +2,7 @@ const key = "22731b796fa3a9a880511a31245cd07f"
 
 function colocarDadosNaTela(dados) {
     document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name 
-    document.querySelector(".temp").innerHTML = dados.main.temp
+    document.querySelector(".temp").innerHTML = dados.main.temp + "°C"
     document.querySelector(".texto-previsao").innerHTML = dados.weather[0].description
 }
 
